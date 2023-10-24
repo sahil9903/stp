@@ -26,7 +26,7 @@
     
     #navbar::before{
         content: "";
-        background-color: rgb(247 136 31);
+        background-color: rgb(16 98 84);
         position: absolute;
         top:0px;
         left:0px;
@@ -68,14 +68,14 @@
     }
     
     #navbar ul li a:hover{
-        color: black;
-        background-color: white;
+        color: #106254;
+        background-color: #ffc108;
     }
     
-        .searchinput{
+     .searchinput{
         font-size: 1rem;
         background-color: #ffffff;
-        color: #f7881f;
+        color: #ffc108;
         padding: 3px 22px;
         border-radius: 100px;
         text-decoration: none;
@@ -83,7 +83,7 @@
     }
     .btnsearch{
         font-size: 1rem;
-        background-color: rgb(247 136 31);
+        background-color: #ffc108;
         color: white;
         padding: 3px 22px;
         border-radius: 23px;
@@ -92,14 +92,14 @@
     }
     .btnsearch:hover{
         background-color: rgb(255, 255, 255);
-        color: #f7881f;
+        color: #ffc108;
 
     }
 
     .login button{
         font-size: 1.3rem;
         background-color: #ffffff;
-        color: #f7881f;
+        color: #ffc108;
         padding: 3px 22px;
         border-radius: 16px;
         text-decoration: none;
@@ -107,7 +107,7 @@
     }
     .signup button{
         font-size: 1.3rem;
-        background-color: #f17400;
+        background-color: #ffc108;
         color: white;
         padding: 3px 22px;
         border-radius: 16px;
@@ -150,17 +150,16 @@
     
     #home h1{
         margin: 0;
-        color:#f7881f;
+        color: #106254;
         text-align: left;
         font-size: 4.5rem;
         font-family: 'Poppins', sans-serif;
-      
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
         
     }
     
     #home p{
-        color:#f7881f;
+        color:#ffc108;
         text-align: left;
         width: 45vw;
         font-size: 1.1rem;
@@ -183,14 +182,14 @@
         display: flex;
     }
     #services .box{ 
-        border: 2px solid rgb(247 136 31);
+        border: 2px solid #ffbb00;
         padding: 34px;
         margin: 2px 55px;
         border-radius: 28px;
-        background: #f2f2f2;
+        background: #f9f9f9;
         margin-bottom: 20px;
         box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
-        color: rgb(244, 143, 48);
+        color: #ffc108;
         width: 300px;
     }
     
@@ -283,7 +282,7 @@
     
     
     footer{
-        background: rgb(247 136 31);
+        background: #106254;
         color: white;
         padding: 9px 20px;
     }
@@ -293,7 +292,7 @@
         font-family: 'Poppins', sans-serif;
         font-size: 3.8rem;
         padding: 12px;
-        color: rgb(247 136 31);
+        color: rgb(16 98 84);
     }
     
     .h-secondary{
@@ -306,7 +305,7 @@
         padding: 11px 43px;
         border: 2px solid white;
         box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
-        background-color: rgb(247 136 31);
+        background-color: #ffc108;
         color: white;
         margin: 19px;
         font-size: 1.5rem;
@@ -316,7 +315,7 @@
     }
     .btn:hover{
         background-color: rgb(255, 255, 255);
-        color: #f7881f;
+        color: #ffc108;
 
     }
     
@@ -327,3 +326,8 @@
     .body{
         background-color: #d4d4d4;
     }
+
+    @media screen and (max-width: 600px)
+   { 
+    
+}

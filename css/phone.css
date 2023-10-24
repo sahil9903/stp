@@ -8,6 +8,27 @@
     padding: 0px 7px;
     padding-bottom: 8px;
 }
+.searchinput{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    width: 129px;
+}
+.btnsearch {
+    font-size: 1rem;
+    padding: 3px 22px;
+    width: 84px;
+}
+.login button{
+    font-size: 1rem;
+    padding: 1px 15px;
+    
+}
+.signup button{
+    font-size: 1rem;
+    padding: 1px 15px;
+    
+}
 /* Home section */
 #home{
     height: 370px; 
@@ -19,7 +40,17 @@
 }
 
 #home p{
-    font-size: 13px;
+    font-size: 1rem;
+}
+#home .h-primary{
+    font-size: 50px;
+    margin-top: 290px;
+}
+#home img{
+top: 60%;
+right: 3%;
+
+width: 125px;
 }
 
 /* Services section  */
@@ -33,6 +64,9 @@
     margin-bottom: 20px;
 }
 
+#services-container.h-primary center{
+        font-size: ;
+}
 /* Clients section */
 #clients{
     flex-wrap: wrap;
