@@ -31,6 +31,7 @@
                 <li class="item"><a href="#home">Home</a></li>
                 <li class="item"><a href="#services-container">Services</a></li>
                 <li class="item"><a href="#client-section">Our Clients</a></li>
+                <li class="item"><a href="./restaurant.html">Restaurants</a></li>
                 <li class="item"><a href="#contact">Contact Us</a></li>
                 
             </ul> 
@@ -45,13 +46,41 @@
 
         <div class="button">
             <div class="login">
-                <button>Login</button>
+                <button class="loginbtn">Login</button>
             </div>
             <div class="signup">
                 <button>Sign Up</button>
             </div>
         </div>
     </nav>
+    <div class="logincontainer">
+        <div class="X">
+            <button class="loginclose">X</button>
+        </div>
+        <!-- LOGIN PAGE START -->
+        <div class="login-container">
+            <h2>Enter Your Login Details</h2>
+            <form action="" method="post">
+                <div class="input-container">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="checkbox-container">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" name="remember"> 
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <input type="submit" class="login-button" value="Login">
+                </div>
+            </form>
+        </div>
+        <!-- END -->
+        
+    </div>
     
 
     <section id="home">
@@ -122,8 +151,12 @@
                     <label for="message">Message: </label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
+                <div class="send">
+                    <button>Send</button>
+                </div>
             </form>
         </div>
+        
     </section>
 
     <footer>
@@ -131,6 +164,7 @@
             Copyright &copy; www.somato.com. All rights reserved!
         </div>
     </footer>
+    <script src="./js.js"></script>
 </body>
 
 </html>

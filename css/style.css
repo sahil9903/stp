@@ -4,6 +4,9 @@
         margin: 0;
         padding: 0;
     }
+    body{
+        position: relative;
+    }
     
     html{
         scroll-behavior: smooth;
@@ -73,11 +76,11 @@
     }
     
      .searchinput{
-        font-size: 1rem;
+        font-size: 1.1rem;
         background-color: #ffffff;
         color: #ffc108;
         padding: 3px 22px;
-        border-radius: 100px;
+        border-radius: 5px;
         text-decoration: none;
         cursor:pointer;
     }
@@ -86,7 +89,7 @@
         background-color: #ffc108;
         color: white;
         padding: 3px 22px;
-        border-radius: 23px;
+        border-radius: 5px;
         text-decoration: none;
         cursor:pointer;
     }
@@ -98,22 +101,32 @@
 
     .login button{
         font-size: 1.3rem;
-        background-color: #ffffff;
+        background-color: white;
         color: #ffc108;
         padding: 3px 22px;
-        border-radius: 16px;
+        border-radius: 5px;
         text-decoration: none;
         cursor:pointer;
+        width: 125px;
+    }
+    .login :hover{
+        background-color: #ffc108;
+        color: white;
     }
     .signup button{
         font-size: 1.3rem;
         background-color: #ffc108;
         color: white;
         padding: 3px 22px;
-        border-radius: 16px;
+        border-radius: 5px;
         text-decoration: none;
         cursor:pointer;
-        margin-right: 35px;
+        margin-right: 20px;
+        width: 125px;
+    }
+    .signup :hover{
+        background-color: white;
+        color: #ffc108;
     }
     #navbar .button{
         gap: 10px;
@@ -123,6 +136,79 @@
     .nav2{
         display: flex;
         align-items: center;
+    }
+    .logincontainer{
+        width: 28vw;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+        background-color: #2a7266f7;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        transform: translateX(+100%);
+        transition: all 0.3s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        border: 5px outset #106254;
+    }
+    .logincontainer.active{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }   
+    .loginclose{
+        background: #ffc108;
+        color: white;
+        border-radius: 10px;
+        padding: 2px;
+        font-size: 20px;
+        width: 30px;
+
+    } 
+    .X{
+        display: flex;
+        justify-content: end;
+        padding: 20px;
+
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    .input-container {
+        margin: 20px 0;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    input[type="text"], input[type="password"] {
+        width: 93.3%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    .checkbox-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .remember-me {
+        display: inline-block;
+    }
+    .login-button {
+        background-color: #ffc108;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 2%;
     }
     
     /* Home Section */
@@ -162,9 +248,10 @@
         color:#ffc108;
         text-align: left;
         width: 45vw;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding-left: 20px;
         font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     
         -webkit-text-stroke: 0.5px rgb(247, 173, 31);    }
     /* food plate image  */
@@ -204,6 +291,9 @@
         font-family: 'Bree Serif', serif;
     
     } 
+    #services-container h1{
+        background-color: white;
+    }
     
     /* Clients Section */
     #client-section{ 
@@ -241,6 +331,9 @@
     #contact{
         position: relative;
         
+    }
+    #contact h1{
+        background-color: #d4d4d4;
     }
     #contact::before{
         content: "";
@@ -326,6 +419,22 @@
     .body{
         background-color: #d4d4d4;
     }
+
+.send button{
+    background-color: #ffc108;
+    border: 2.33px solid #106254;
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.send-button:hover {
+    background-color: #0056b3; 
+}
+
 
     @media screen and (max-width: 600px)
    { 
